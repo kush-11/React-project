@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    width: 50%;
+    margin-left: 370px;
+    background-color: rgb(3, 46, 83);   
+}
+
+
+.h1{
+    margin-left: 250px;
+    max-height: max-content;
+}

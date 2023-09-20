@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 8px;
+    /* border: 5px solid red; */
+  }
+
+  .navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+  }
+  .logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 50px;
+    border-radius: 50px;
+  }
+  .text{
+    color: aliceblue;
+  }
+  
+  

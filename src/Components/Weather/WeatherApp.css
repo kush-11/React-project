@@ -1,0 +1,123 @@
+/* src/App.css */
+
+/* .weather-app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .forecast {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .forecast-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .forecast-date {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .forecast-icon img {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+  }
+  
+  .forecast-temp {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .forecast-details {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777;
+  } */
+
+
+
+
+  
+  /* src/App.css */
+
+.weather-app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: rgb(3, 46, 83);
+  color: aliceblue;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Ensure boxes are left-aligned */
+  max-width: 100%;
+  max-height: min-content;
+  /* Ensure the boxes don't exceed the viewport width */
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.forecast-row {
+  width: 500px; /* Set a fixed width for each row */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* margin-right: 20px; Add some spacing between rows */
+  text-align: left; /* Align text content to the left */
+  padding: 20px;
+  margin-left: 100px;
+
+}
+
+.forecast-date {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.forecast-icon img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; /* Add some spacing between icon and text */
+  vertical-align: middle; /* Align icon vertically with text */
+}
+
+.forecast-temp {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.forecast-details {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #777;
+}
+
+  
